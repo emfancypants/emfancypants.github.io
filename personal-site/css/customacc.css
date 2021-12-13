@@ -184,3 +184,9 @@ ion-icon:hover {
     height: 200px;
   }
 }
+
+@media (max-width: 500px) { 
+  .istitle h1 {
+    font-size: 55px;
+  }
+}
