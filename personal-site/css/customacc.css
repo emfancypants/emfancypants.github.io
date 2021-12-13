@@ -187,4 +187,9 @@ ion-icon:hover {
   .istitle h1 {
     font-size: 47px;
   }
+
+  .istitle h1::after {
+    width: 4px;
+    height: 50px;
+  }
 }
