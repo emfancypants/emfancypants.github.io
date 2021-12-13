@@ -95,3 +95,92 @@ ion-icon:hover {
 	color: #FC9B44;
 	transform: translate(0, -10px);
 }
+
+/*responsive styling*/
+@media (max-width: 998px) { 
+  .general p {
+    width: 500px;
+  }
+}
+
+@media (min-width: 952px) { 
+  .general {
+    padding-left: 200px;
+  }
+}
+
+
+@media (min-width: 830px) { 
+  .general {
+    padding-left: 150px;
+  }
+}
+
+@media (max-width: 1059px) { 
+  .Row {
+    border-spacing: 50px;
+  }
+}
+
+@media (max-width: 1059px) { 
+  .Row {
+    border-spacing: 45px;
+  }
+}
+
+@media (max-width: 877px) { 
+  .Row {
+    border-spacing: 35px;
+  }
+}
+
+@media (max-width: 694px) { 
+  .Row {
+    border-spacing: 25px;
+  }
+}
+
+
+
+@media (max-width: 628px) { 
+  .istitle h1 {
+    font-size: 60px;
+  }
+
+  .general p {
+    width: 400px;
+  }
+
+  .Row {
+    border-spacing: 17px;
+  }
+}
+
+@media (max-width: 557px) { 
+  .Row {
+    border-spacing: 10px;
+  }
+}
+
+
+@media (max-width: 538px) { 
+  .general h3 {
+    width: 400px;
+  }
+}
+
+
+@media (max-width: 500px) { 
+  .Row {
+    border-spacing: 6px;
+  }
+
+  .Column {
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .pic {
+    height: 200px;
+  }
+}

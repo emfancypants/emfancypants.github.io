@@ -62,7 +62,6 @@ ul.nav, .istitle p, .btn-lg {
 	background-image: url(../images/background1.png);
 	padding-top: 10px;
 	padding-bottom: 100px;
-	padding-left: 200px;
 }
 
 .general h2 {
@@ -101,4 +100,39 @@ ul.nav, .istitle p, .btn-lg {
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	text-shadow: 2px 2px 5px #09254B;
+}
+
+/*responsive styling*/
+@media (max-width: 998px) { 
+	.general p {
+		width: 500px;
+	}
+}
+
+@media (min-width: 952px) { 
+	.general {
+		padding-left: 200px;
+	}
+}
+
+@media (min-width: 830px) { 
+	.general {
+		padding-left: 150px;
+	}
+}
+
+@media (max-width: 628px) { 
+	.istitle h1 {
+		font-size: 60px;
+	}
+
+	.general p {
+		width: 400px;
+	}
+}
+
+@media (max-width: 538px) { 
+	.general h3 {
+		width: 400px;
+	}
 }
