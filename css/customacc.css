@@ -1,0 +1,97 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0.3;
+		background-color: #09254B;	
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.containeracc {
+	animation: transitionIn 0.85s;
+}
+
+ul.nav, .istitle p, .btn-lg {
+	font-family: 'Inter', sans-serif;
+}
+
+.istitle h1 {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 80px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	color: white;
+	text-shadow: 2px 2px 3px #09254B;
+	-webkit-transition: color 1s;
+}
+
+.istitle h1:hover {
+	color: #FFEE95;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+.istitle h1::after {
+  content: "";
+  width: 5px;
+  height: 75px;
+  background: #CC74FF;
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+.istitle {
+	text-align: center;
+	background-color: #09254B;
+	margin-bottom: 0px;
+	padding: 48px 30px 20px 30px;
+}
+
+.filler {
+	background-color: #11376A;
+	padding-bottom: 60px;
+}
+
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 60px; /*Optional*/
+    height: 30px;
+}
+.Column {
+    display: table-cell;
+    border-radius: 20px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-shadow: none;
+    -webkit-transition: color 1s
+}
+
+ion-icon {
+  font-size: 60px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  color: #F45381;
+  -webkit-transition: color 1s;
+  -webkit-transition: transform 1s;
+}
+
+ion-icon:hover {
+	color: #FC9B44;
+	transform: translate(0, -10px);
+}
