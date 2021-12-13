@@ -96,7 +96,7 @@ ion-icon:hover {
 	transform: translate(0, -10px);
 }
 
-/*responsive styling*/
+/*responsive styling!!*/
 @media (max-width: 998px) { 
   .general p {
     width: 500px;
@@ -183,9 +183,7 @@ ion-icon:hover {
   .pic {
     height: 200px;
   }
-}
 
-@media (max-width: 500px) { 
   .istitle h1 {
     font-size: 50px;
   }
