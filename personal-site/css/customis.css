@@ -103,7 +103,7 @@ ul.nav, .istitle p, .btn-lg {
 	text-shadow: 2px 2px 5px #09254B;
 }
 
-/*responsive styling*/
+/*responsive styling!!*/
 @media (max-width: 998px) { 
 	.general p {
 		width: 500px;
