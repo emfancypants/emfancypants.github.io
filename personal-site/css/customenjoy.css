@@ -125,14 +125,10 @@ ul.nav, .istitle p, .btn-lg {
 	.istitle h1 {
 		font-size: 60px;
 	}
-
-	.general p {
-		width: 400px;
-	}
 }
 
 @media (max-width: 538px) { 
-	.general h3 {
-		width: 400px;
+	.general p, h3, h2 {
+		width: 350px;
 	}
 }
