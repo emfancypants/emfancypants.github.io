@@ -44,7 +44,7 @@ html,body
 }
 
 .jumbotron1 {
-	padding: 100px 170px 450px 170px;
+	padding: 100px 170px 480px 170px;
 	text-align: right;
 	background-image: url(../images/bg1.png);
 	background-repeat:no-repeat;
@@ -52,7 +52,7 @@ html,body
 }
 
 .jumbotron2 {
-	padding: 100px 170px 450px 170px;
+	padding: 100px 170px 480px 170px;
 	text-align: left;
 	background-image: url(../images/bg2.png);
 	background-repeat:no-repeat;
