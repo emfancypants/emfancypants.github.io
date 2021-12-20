@@ -1,0 +1,77 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+html,body
+{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+	padding: 100px 170px 180px 170px;
+	text-align: left;
+	background-image: url(../images/background.png);
+	background-repeat:no-repeat;
+    background-size:1280px 720px;
+}
+
+.jumbotron h3 {
+	color: white;
+	font-size: 55px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 0px;
+	width: max-content;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-size: 87px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 0px;
+	width: max-content;
+	-webkit-transition: color 1s;
+}
+
+.jumbotron h1:hover{
+	color: #E2BDA1;
+}
+
+.jumbotron p {
+	color: #A7C8C9;
+	font-size: 28px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: max-content;
+}
+
+.jumbotron1 {
+	padding: 100px 170px 180px 170px;
+	text-align: right;
+	background-image: url(../images/bg1.png);
+	background-repeat:no-repeat;
+    background-size:1280px 720px;
+}
+
+.jumbotron2 {
+	padding: 100px 170px 180px 170px;
+	text-align: left;
+	background-image: url(../images/bg2.png);
+	background-repeat:no-repeat;
+    background-size:1280px 720px;
+}
+
+.footer {
+	background-color: #8BA4A5;
+}
+
+ion-icon {
+  font-size: 45px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: white;
+  -webkit-transition: color 1s;
+}
+
+ion-icon:hover {
+	color: #3C6E71;
+}
