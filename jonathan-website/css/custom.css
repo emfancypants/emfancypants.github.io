@@ -51,6 +51,20 @@ html,body
     background-size:1280px 720px;
 }
 
+.jumbotron1 h1 {
+	width: 700px;
+	margin-right: 0px;
+	margin-left: 250px;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-transition: color 1s;
+
+}
+
+.jumbotron1 h1:hover {
+	color: #E2BDA1;
+}
+
 .jumbotron2 {
 	padding: 100px 170px 480px 170px;
 	text-align: left;
